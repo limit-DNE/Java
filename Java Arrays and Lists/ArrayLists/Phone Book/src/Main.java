@@ -25,21 +25,27 @@ public class Main {
             switch (selection){
                 case 1:
                     selectionCreateContact();
+                    displayOptions();
                     break;
                 case 2:
                     selectionPrintContacts();
+                    displayOptions();
                     break;
                 case 3:
                     selectionFindContact();
+                    displayOptions();
                     break;
                 case 4:
                     selectionSearchContacts();
+                    displayOptions();
                     break;
                 case 5:
                     selectionUpdateContact();
+                    displayOptions();
                     break;
                 case 6:
                     selectionRemoveContact();
+                    displayOptions();
                     break;
                 default:
                     System.out.println("Incorrect selection. Please try again.");
